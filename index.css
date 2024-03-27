@@ -96,3 +96,25 @@ nav li {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+/* Section Articles */
+
+main {
+	background-color: red;
+}
+#section_articles {
+	max-width: 1300px;
+	margin: auto;
+}
+
+#articles {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.article {
+	background: blue;
+	width: 50%;
+	padding: 20px;
+}
